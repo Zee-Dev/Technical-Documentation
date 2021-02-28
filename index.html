@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Html Documentation</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kurale&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <meta name="viewpoint" content="width=device-width," initial-scale="1.0">
+</head>
+
+<body>
+
+    <!-- Nav-bar -->
+    <header id="header">
+        <nav class="navbar container">
+            <ul class="nav-list">
+                <li class="nav-items">
+                    <h1>Html Documentation </h1>
+                </li>
+                <li class="nav-items"><a href="#introduction" class="nav-link"> Introduction</a></li>
+                <li class="nav-items"> <a href="#tags" class="nav-link"> Tags</a></li>
+                <li class="nav-items"> <a href="#elements" class="nav-link">Elements</a></li>
+                <li class="nav-items"><a href="#attributes" class="nav-link"> Attributes</a></li>
+                <li class="nav-items"><a href="#structure" class="nav-link"> Structure</a></li>
+                <li class="nav-items"><a href="#sites" class="nav-link"> Where to learn more on HTML</a></li>
+            </ul>
+        </nav>
+    </header>
+    </div>
+
+
+    <!-- Main-Documentation -->
+    <main id="main-doc">
+
+        <!-- Introduction -->
+        <section class="main-section" id="introduction">
+            <h3>Introduction</h3>
+            <p style="text-indent: 5%;"> HTML means <strong>Hyper Text Markup Language</strong>.
+                Hyper Text is a bunch of documents that are linked using hyperlinks.
+                It is the standard language used for displaying contents in webpagees.
+                It is the background for creating a websites and the basics for learning how to build a websites for
+                beginners.
+                It uses tag and atrributes to define the meaning and structure of a webpage.
+                HTML is not a programming language because it does not have the ability to do dynamic functionality on a
+                webpage unlike other programming language that uses sripts e.g. Javascript.
+                The filename extension of Html is .html or .htm which means all html files should end with either .html
+                or htm. The HTML pages can be view using web pages such
+                as firefox, chrome, operamini etc. it reads the HTML file and display the contents to the users.<p>
+        </section>
+
+
+        <!-- Tags -->
+        <section class="main-section" id="tags">
+            <h3> Tags </h3>
+            <ul>
+                <li>
+                    <p> <strong><span> &lt </span> <span> html </span> <span> > </span> </strong>Tag :- <strong>
+                            <span> &lt </span> <span> html </span> <span> > </span></strong> tags are hidden
+                        keywords and commands that can only be seen by the web browsers. it tells the browser how to
+                        struture the contents of a webpage. HTML Tags has an opening tag <strong><span> &lt </span>
+                            <span> html </span> <span> ></span></strong> and a closing tag <strong><span> &lt
+                            </span> <span>/html </span> <span> ></span></strong>.
+                        The opening tag also called the start tag is always placed at the begining of
+                        the documents. The closing tag also know as the end tag is always placed at the end of the
+                        documents. The closing tag has a slash after the first bracket unlike the opening
+                        tag.
+                    </p>
+                </li>
+                <li>
+                    <p><strong><span> &lt </span> <span> head </span> <span> > </span> </strong>Tag :- The
+                        <strong><span> &lt </span> <span> head </span> <span> > </span> </strong>tag is after the
+                        opening html tag. It defines the head section of the HTML document. It contains the
+                        non-visual
+                        elements of the webpage that are only visible to the web browsers and alos specific
+                        information
+                        related to the documents. </p><br>
+
+                    <strong> Syntax:-</strong> <br>
+                    <div class="syntax-contents">
+                        <div class="syntax">
+                            <span class="" style="color: red"> &lt </span> <span style="color:red"> head </span>
+                            <span style="color: red"> ></span><br>
+                            <span>
+                                <span class="title" style="color: blue"> &lt </span> <span style="color:blue"> title
+                                </span>
+                                <span style="color: blue"> ></span>
+                                <span style="color:blue"> &lt </span> <span style="color:blue"> /title </span>
+                                <span style="color:blue"> > </span><br>
+                                <span class="title" style=" color: blue"> &lt </span> <span style="color:blue"> meta
+                                </span>
+                                <span style="color: blue"> ></span><br>
+                                <span class="title" style="color: blue"> &lt </span> <span style="color: blue"> link
+                                </span>
+                                <span style="color: blue"> ></span><br>
+                                <span class="" style="color: red"> &lt </span> <span style="color:red"> /head </span>
+                                <span style="color: red"> ></span>
+                        </div>
+
+                        <!-- Tags inside the head-tag -->
+
+                        <ul>
+                            <li>
+                                <p><strong><span> &lt </span> <span> title </span> <span> > </span> </strong>Tag :-
+                                    This is placed between the opening and closing head tag. It describes the title
+                                    of the webpage and also used by search engines for search listings. It always
+                                    appears at the top of the web browser of the webpage.</p>
+                            </li>
+                            <li>
+                                <p><strong><span> &lt </span> <span> meta </span> <span> > </span> </strong>Tag :-
+                                    It is an empty tag i.e. It has no closing tag. (<strong> NOTE </strong>:- Empty
+                                    Tags are tags that do not have a closing tag). It provides additional
+                                    information about a webpage within its attributes (Attributes will be explained
+                                    later). </p>
+                            </li>
+                            <li>
+                                <p><strong><span> &lt </span> <span> link </span> <span> > </span> </strong>Tag :-
+                                    This is also an empty tag. it is mostly useed to link a CSS file to an HTMl
+                                    documents. It shows the relationship between a document and its external file.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+
+
+                <li>
+                    <p><strong><span> &lt </span> <span> body </span> <span> > </span> </strong>Tag :- It comes
+                        after the closing head tag. it is the main part of an HTML documents. It contains all the
+                        visual part of the webpage that is shown to the user. They includes paragraph, images, list,
+                        links, tables, break etc </p>
+                    <p> <strong> NOTE:</strong> AN HTML DOCUMENT HAS ONLY ONE HTML, HEAD AND BODY TAG.</p>
+
+
+                    <!-- Tags inside the body tag -->
+                    <div class="syntax-contents">
+                        <ul>
+                            <li>
+                                <p><strong><span> &lt </span> <span> p </span> <span> > </span> </strong>Tag :- It is
+                                    used to create a paragraph on a webpage. The webbrowser will add an new line before
+                                    and after a paragraph automatically. It is not an empty tag. </p>
+                            </li>
+                            <li>
+                                <p><strong><span> &lt </span> <span> html headings </span> <span> > </span> </strong>Tag
+                                    :- HTML has 6 headings which are ranked from the most important to the least
+                                    important. They are not an empty tags. The HTML headings are :- <strong><span> &lt
+                                        </span> <span> h1 </span> <span> > </span> </strong> , <strong><span> &lt
+                                        </span> <span> h2 </span> <span> > </span> </strong>, <strong><span> &lt </span>
+                                        <span> h3 </span> <span> > </span> </strong>, <strong><span> &lt </span>
+                                        <span> h4 </span> <span> > </span> </strong>, <strong><span> &lt </span>
+                                        <span>h5 </span> <span> > </span> </strong>,<strong><span> &lt </span>
+                                        <span> h6 </span> <span> > </span> </strong>.
+                            </li>
+                            <li>
+                                <p><strong><span> &lt </span> <span> br </span> <span> > </span> </strong>Tag:- It is
+                                    use
+                                    to create a line page in a text. it is an empty tag. It is often used when writing a
+                                    poem or address.</p>
+                            </li>
+                            <li>
+                                <p><strong><span> &lt </span> <span> hr </span> <span> > </span> </strong> Tag:It is
+                                    usede to add an horizonatal line to seperate contents in a page. it also defines a
+                                    thematic break in an HTML page (e.g A shift in topic).
+                            </li>
+                            <li>
+                                <p><strong><span> &lt </span> <span> a </span> <span> > </span> </strong>: This is
+                                    called an
+                                    archor tag. An Anchor tag is used to define hyperlink for linking one webpages,
+                                    emails,
+                                    files e.t.c together. it is used by Search Engines to send user to specific section
+                                    of
+                                    the webpage. The Anchor tag requires an <span style="color: blue"> href</span>
+                                    attributes. An <span style="color: blue"> href</span> attributes contains <strong>
+                                        URL
+                                    </strong> to send user when they click on the link.
+                                    <div class="syntax">
+                                        <span style="color: red;"> &lt</span> <span style="color: red;"> a</span> <span
+                                            style="color: blue;"> href
+                                            =</span> <span style="color:blue;"> <u> "www.google.com"</u></span>
+                                        <span style="color: red;"> > Go to Google </span> <span style="color: red;">
+                                            &lt</span> <span style="color: red;"> /a </span> <span
+                                            style="color: red;">></span>
+                                    </div>
+                                    <p> This is the way an anchor tag is written, it also have other attributes e.g
+                                        name,
+                                        target
+                                        etc. Go to <a href="https://www.freecodecamp.org/">Freecodecamp</a> to learn
+                                        more.</p>
+                            </li>
+                            <li>
+                                <p><strong><span> &lt </span> <span> img </span> <span> > </span> </strong> Tag: This is
+                                    used to
+                                    embed an image to an HTML pages. It is a self-closing tag .i.e it has no closing
+                                    tag. It
+                                    has two required attributes.</p>
+
+
+                                <div class="list">
+                                    <ul>
+
+                                        <li>
+                                            <p> src: It defines the path of the image to be embedded.</p>
+                                        </li>
+                                        <li>
+                                            <p> alt: It defines the text that the user will see if the image is not
+                                                showing
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <div class="syntax">
+                                        <span style="color: red;"> &lt</span> <span style="color: red;"> img </span>
+                                        <span style="color: green;"> src
+                                            =</span> <span style="color:blue;"> "img.cup.jpg"</span>
+                                        <span style="color: red;"> alt = </span> <span style="color: red;"> <span
+                                                style="color: blue;"> a cup</span>
+                                            <span style="color: red;">></span>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <p> <strong>list items:</strong> it is used to group a set of related items in a
+                                    semantic
+                                    and orderly
+                                    manner in a page. We have the ordered and ordered list. </p>
+
+                                <ul>
+                                    <div class="list">
+                                        <li>
+                                            <p><strong><span> &lt </span> <span> ol</span> <span> > </span> </strong>
+                                                :It is
+                                                called an ordered list. It defines an ordered list. An ordered list is
+                                                used
+                                                to
+                                                create a related items in alphabetical order or in numerical order. An
+                                                ordered
+                                                list is created using the opening <strong><span> &lt </span> <span> ol
+                                                    </span> <span> > </span> </strong> followed by both opening and
+                                                closing
+                                                list items <strong><span> &lt </span> <span> li </span> <span>> </span>
+                                                </strong>,<strong><span> &lt </span> <span> /li </span> <span> >
+                                                    </span> </strong> and the content in between, then the closing
+                                                ordered list follows <strong><span> &lt </span> <span> /ol </span>
+                                                    <span> >
+                                                    </span> </strong>.</p>
+                                        </li>
+
+                                        <div class="syntax">
+                                            <span style="color: red;"> &lt</span> <span style="color: red;"> ol
+                                            </span><span style="color: red;"> ></span> <br>
+                                            <span class="title" style="color:blue"> &lt</span> <span
+                                                style="color:blue;">
+                                                li</span>
+                                            <span style="color: blue;"> ></span> Travelling <span style="color: blue;">
+                                                &lt </span> <span style="color: blue;"> /li</span> <span
+                                                style="color: blue;">
+                                                ></span> <br>
+                                            <span class="title" style="color:blue;"> &lt</span> <span
+                                                style="color: blue;">
+                                                li</span>
+                                            <span style="color:blue;"> ></span> Chatting <span style="color: blue;">
+                                            </span> <span style="color: blue;">
+                                                &lt </span> <span style="color: blue;"> /li</span> <span
+                                                style="color: blue;">
+                                                ></span> <br>
+                                            <span class="title" style="color:blue"> &lt</span> <span
+                                                style="color: blue;">
+                                                li</span>
+                                            <span style="color: blue;"> ></span> Coding <span style="color: blue;">
+                                            </span> <span style="color: blue;">
+                                                &lt </span> <span style="color: blue;"> /li</span> <span
+                                                style="color: blue;">
+                                                ></span><br>
+                                            <span style="color: red;"> &lt</span> <span style="color: red;"> /ol
+                                            </span><span style="color: red;"> ></span> <br>
+                                        </div>
+
+
+                                        <p> The above example will show in your browser this way:</p>
+                                        <div class="syntax">
+                                            <ol>
+                                                <li> Travelling</li>
+                                                <li> Chatting</li>
+                                                <li> Coding</li>
+                                            </ol>
+                                        </div>
+
+                                        <li>
+                                            <p><strong><span> &lt </span> <span> ul</span> <span> > </span>
+                                                </strong>
+                                                :It is
+                                                called an Unordered list.It is used to defined list of related items
+                                                using bullets. An unordered
+                                                list is created using the opening <strong><span> &lt </span> <span>
+                                                        ul
+                                                    </span> <span> > </span> </strong> followed by both opening and
+                                                closing
+                                                list items <strong><span> &lt </span> <span> li </span> <span> >
+                                                    </span>
+                                                </strong>,<strong><span> &lt </span> <span> /li </span> <span> >
+                                                    </span> </strong> and the content in between, then the closing
+                                                ordered list follows <strong><span> &lt </span> <span> /ul </span>
+                                                    <span> >
+                                                    </span> </strong>.</p>
+                                        </li>
+
+
+                                        <div class="syntax">
+                                            <span style="color: red;"> &lt</span> <span style="color: red;"> ul
+                                            </span><span style="color: red;"> ></span> <br>
+                                            <span class="title" style="color:blue"> &lt</span> <span
+                                                style="color:blue;">
+                                                li</span>
+                                            <span style="color: bkue;"> ></span> Travelling <span style="color: blue;">
+                                                &lt </span> <span style="color: blue;"> /li</span> <span
+                                                style="color: blue;">
+                                                ></span> <br>
+                                            <span class="title" style="color:blue;"> &lt</span> <span
+                                                style="color: blue;">
+                                                li</span>
+                                            <span style="color:blue;"> ></span> Chatting <span style="color: blue;">
+                                                ></span> <span style="color: blue;">
+                                                &lt </span> <span style="color: blue;"> /li</span> <span
+                                                style="color: blue;">
+                                                ></span> <br>
+                                            <span class="title" style="color:blue;"> &lt</span> <span
+                                                style="color: blue;">
+                                                li</span>
+                                            <span style="color: blue;"> ></span> Coding <span style="color: blue;">
+                                                ></span> <span style="color: blue;">
+                                                &lt </span> <span style="color: blue;"> /li</span> <span
+                                                style="color: blue;">
+                                                ></span><br>
+                                            <span style="color: red;"> &lt</span> <span style="color: red;"> /ul
+                                            </span><span style="color: red;"> ></span> <br>
+                                        </div>
+
+
+                                        <p> The above example will show in your browser this way:</p>
+                                        <div class="syntax">
+                                            <ul>
+                                                <li> Travelling</li>
+                                                <li> Chatting</li>
+                                                <li> Coding</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Elements-Section -->
+        <section class="main-section" id="elements">
+            <h3> Elements</h3>
+            <p> HTML Elements are the building blocks of webpages which defines the whole of
+                HTML documents. They are
+                used to add semantics and meaning to
+                webpage. HTML elements contain an opening tag, the contents and a closing
+                tag. Elements can also contain
+                attributes</p>
+
+            <p> <strong>Technically, an element is a collection of start tag, atributes,end tag, content between
+                    them.
+                </strong></p>
+
+            <div class="syntax">
+                <span class="" style="color: red"> &lt </span> <span style="color:red"> p
+                </span>
+                <span style="color: red"> ></span> <span>
+                    <p style="display: inline;"> This is a paragraph</p>
+                </span> <span class="" style="color: red"> &lt </span> <span style="color:red"> /p </span>
+                <span style="color: red"> ></span> <br>
+
+                <span class="" style="color:blue"> &lt </span> <span style="color:blue"> h1
+                </span>
+                <span style="color: blue"> ></span>
+                <h1 style="display: inline;"> This is a first heading</h1>
+                <span class="" style="color:blue"> &lt </span> <span style="color: blue">
+                    /h1 </span>
+                <span style="color: blue"> ></span>
+            </div>
+
+            <div class="list">
+                <h3> Block and Inline Elements</h3>
+                <ul>
+                    <li>
+                        <p><Strong>Block Elements:</Strong>: Block elements are elements that always start on a new
+                            line, they do not allow other element to sit beside them and it takes all the full width
+                            avaliable.
+                            Block elements are <span> &lt</span><span>p</span> <span>> </span>,all Html headings, <span>
+                                &lt</span><span>form</span> <span>> </span>, <span> &lt</span><span>hr</span> <span>>
+                            </span>
+                            etc.</p>
+                    </li>
+                    <li>
+                        <p><Strong>Inline Elements</Strong>: Inline elements do not start on a new line,they allow all
+                            other element to sit beside the, and it only takes up as much width as necessary.They
+                            include
+                            <span>
+                                a</span>, <span> br</span> <span> img</span> etc </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+        <!-- Attributes -->
+        <section class="main-section" id="attributes">
+            <h3>Attributes</h3>
+            <p> Attributes provides more infomation about an HTML elements. All HTML elements can have attributes, they
+                are always written at the beginning of an tag.</p>
+        </section>
+
+
+
+        <!-- Structure -->
+        <section class="main-section" id="structure">
+            <h3>HTML Structure</h3>
+            <p> This is the structure of HTML5 looks</p>
+            <div class="syntax">
+                <span style="color: red;"> &lt</span> <span style="color: blue;"> !DOCTYPE</span> <span
+                    style="color: blue;"> > </span> <br>
+                <span style="color: red;"> &lt</span> <span style="color: red;"> html </span> <span style="color: red;">
+                    > </span> <br>
+                <span style="color: red;" style="text-indent: 12px;"> &lt</span> <span style="color: red;"> head </span>
+                <span style="color: red;">
+                    > </span><br>
+                <span class="title" style="color: blue"> &lt </span> <span style="color:blue"> title </span>
+                <span style="color: blue"> ></span><br>
+                <span class="body">Page Title here.....</span><br>
+                <span class="title" style="color:blue"> &lt </span> <span style="color:blue"> /title </span>
+                <span style="color:blue"> > </span><br>
+                <span class="title" style=" color: blue"> &lt </span> <span style="color:blue"> meta </span>
+                <span style="color: blue"> ></span><br>
+                <span class="title" style="color: purple"> &lt </span> <span style="color: purple"> link </span>
+                rel="stylesheet" href="your external css file"
+                <span style="color: purple"> ></span> <br>
+                <span class="" style="color: red"> &lt </span> <span style="color:red"> /head </span>
+                <span style="color: red"> ></span><br>
+                <span class="" style="color: red"> &lt </span> <span style="color:red"> body </span>
+                <span style="color: red"> ></span> <br>
+                <span class="body">Your contents here....</span><br>
+                <span class="" style="color: red"> &lt </span> <span style="color:red"> /body </span>
+                <span style="color: red"> ></span> <br>
+                <span style="color: red;"> &lt</span> <span style="color: red;"> /html </span> <span
+                    style="color: red;">
+                    > </span> <br>
+
+            </div>
+        </section>
+
+
+
+        <section class="main-section" id="sites">
+            <h3>Where to learn more on HTML</h3>
+            <p> To learn more on HTMl, Visit these websites:-</p>
+            <ul>
+                <li><a href="https://www.freecodecamp.org/"> FreeCodeCamp</a></li>
+                <li> <a href="http://www.w3schools.com"> w3schools</a></li>
+                <li><a href="http://developer.mozilla.org">MDN web Docs</a></li>
+
+        </section>
+    </main>
+    </div>
+</body>
+
+</html>
